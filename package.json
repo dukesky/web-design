@@ -1,0 +1,24 @@
+{
+  "name": "web-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukesky/web-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukesky/web-design/issues"
+  },
+  "homepage": "https://github.com/dukesky/web-design#readme",
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
