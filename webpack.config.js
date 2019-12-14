@@ -12,9 +12,15 @@ module.exports = {
         filename: 'bundled.js',
         path: path.resolve(__dirname,'app')
     },
+    devSever: {
+        contentBase: path.join(__dirname,'app'),
+        hot: true,   /* how mo*/
+        port : 3000
+
+    },
 
     mode: 'development',
-    watch : true,
+    
     module: {
         rules: [
             {test: /\.css$/i,
