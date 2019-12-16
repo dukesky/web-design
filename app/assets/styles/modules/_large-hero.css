@@ -2,6 +2,7 @@
 
 .large-hero{
     position: relative;
+    border-bottom: 10px solid var(--mainBlue);
 
 }
 
@@ -18,7 +19,7 @@
     font-weight: 300;
     color: #2f5572;
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 2.4rem;
 
     /*
     @media(min-width:600px){
@@ -29,27 +30,15 @@
 
     @mixin atSmall{
         font-weight: 300;
-        font-size: 1.8rem;
-    }
-
-    @mixin atMedium{
-        font-weight: 300;
-        font-size: 2.8rem;
-    }
-
-    @mixin atLarge{
-        font-weight: 300;
         font-size: 4.8rem;
     }
-
-
 
 }
 
 .large-hero__subtitle{
     font-weight: 300;
     color: #2f5572;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin: 0;
 
     @mixin atSmall{
@@ -62,24 +51,25 @@
         font-size: 2.8rem;
     }
 
-    @mixin atLarge{
-        font-weight: 300;
-        font-size: 4.8rem;
-    }
-
 }
 
 .large-hero__description{
     color: #FFF;
-    font-size: 1.875rem  ;
+    font-size: 1.1rem  ;
     font-weight: 100;
     text-shadow: 2px 2px 0 rgba(0,2,1,.1);
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
 
+    @mixin atSmall{
+        font-size: 1.875rem;
+    }
 }
 
+.large-hero__image{
+    display: block;
+}
 /*
 @media (min-width : 600px ){
     .large-hero__title{
