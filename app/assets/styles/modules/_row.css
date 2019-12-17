@@ -1,0 +1,27 @@
+.row{
+
+   
+    
+    @mixin clearfix;
+    box-sizing: border-box
+}
+
+.row__4{
+    float:left;
+    width: 40%;
+}
+
+.row__8{
+    float:left;
+    width: 60%
+}
+
+.row--gutters{
+    margin-right: -65px;
+}
+
+.row--gutters > div{
+    padding-right:65px;
+
+
+}

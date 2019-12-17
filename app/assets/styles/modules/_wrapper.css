@@ -1,3 +1,5 @@
+/* used to centerlize content */
+
 .wrapper{
     padding-left: 18px ;
     padding-right: 18px;
@@ -5,13 +7,9 @@
     margin-left:auto;
     margin-right: auto;
 
-    .wrapper{
-        padding-left: 0;
-        padding-right: 0;
-    }
 }
 
 .wrapper--medium{
-    max-width: 970px;
+    max-width: 976px;
 
 }

@@ -1,7 +1,11 @@
 .headline{
     font-weight: 300;
-    font-size: 2.875rem;
-    color: var(--mainBlue);
+    font-size: 1.4rem;
+    color: var(--mainBlue);    
+    @mixin atSmall{
+        font-size: 2.875rem;    
+    }
+
 }
 
 .headline--centered{
@@ -13,7 +17,10 @@
 }
 
 .headline--small{
-    font-size: 1.875rem;
+    font-size: 1.2rem;
+    @mixin atSmall{
+        font-size: 1.875rem;    
+    }
 }
 
 .headline--narrow{
@@ -31,6 +38,6 @@
 }
 
 .headline--b-margin-large{
-    margin-bu   :1.5rem;
+    margin-bottom   :1.5rem;
 
 }
