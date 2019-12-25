@@ -6,14 +6,19 @@
     box-sizing: border-box
 }
 
-.row__4{
-    float:left;
-    width: 40%;
+.row__medium-4{
+    @mixin atMedium{
+        float:left;
+        width: 40%;
+    }
+
 }
 
-.row__8{
-    float:left;
-    width: 60%
+.row__medium-8{
+    @mixin atMedium{
+        float:left;
+        width: 60%;
+    }
 }
 
 .row--gutters{

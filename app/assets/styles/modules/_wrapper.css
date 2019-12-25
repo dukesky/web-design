@@ -13,3 +13,11 @@
     max-width: 976px;
 
 }
+
+.wrapper--b-margin{
+    margin-bottom: 2rem;
+
+    @mixin atSmall{
+        margin-bottom: 3.875rem;
+    }
+}

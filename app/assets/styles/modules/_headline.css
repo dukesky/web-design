@@ -41,3 +41,7 @@
     margin-bottom   :1.5rem;
 
 }
+
+.headline--no-t-margin{
+    margin-top: 0;    
+}
