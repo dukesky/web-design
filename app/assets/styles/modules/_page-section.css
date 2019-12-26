@@ -1,5 +1,5 @@
 .page-section{
-    
+    color: wheat;
     padding: 1.2rem ;
     @mixin atMedium{
         padding: 4.5rem 0;

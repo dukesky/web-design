@@ -1,9 +1,7 @@
 .row{
-
-   
-    
     @mixin clearfix;
     box-sizing: border-box
+
 }
 
 .row__medium-4{
@@ -25,8 +23,24 @@
     margin-right: -65px;
 }
 
+.row--gutters-large{
+    margin-right: -100px
+}
+
+.row--gutters-large > div{
+    padding-right:100px;
+
+}
+
 .row--gutters > div{
     padding-right:65px;
 
+}
 
+.row__medium-6 {
+    @mixin atMedium {
+        float: left;
+        width: 50%;
+
+    }
 }

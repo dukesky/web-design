@@ -1,9 +1,10 @@
 .headline{
+    color:var(--MainBlue);
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: var(--mainBlue);    
     @mixin atSmall{
-        font-size: 2.875rem;    
+        font-size: 2.2rem;    
     }
 
 }
