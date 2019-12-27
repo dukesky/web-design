@@ -1,0 +1,36 @@
+.section-title{
+   font-size: 2.45rem;
+   font-weight: 300;
+   text-align: center;
+   
+   @mixin atSmall{
+       font: size 3.75rem;
+   }
+
+
+   &__blue {
+       color:var(mainBlue);
+       margin-bottom: 7rem;
+   }
+
+   strong{
+       font-weight: 550;
+   }
+
+   &__icon {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -0.6rem;
+
+       @mixin atSmall {
+           position: relative;
+           top: 8px;
+           margin-right: .5rem;
+           margin-left: 0;
+           display: inline-block;
+
+       }
+   }
+}
+
